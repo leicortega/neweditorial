@@ -4,7 +4,7 @@
 /* ---Header Top Area--- */
 .header-top_area{
     .header-top_nav{
-        border-bottom: 1px solid $border-color;
+        height: 34px;
     }
     .ht-menu {
         > ul {
@@ -99,14 +99,12 @@
         padding: 30px 0;
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid $border-color;
         align-items: center;
         .header-search_area{
             form{
                 &.search-form{
                     position: relative;
                     input{
-                        border: 1px solid $border-color;
                         height: 40px;
                         padding: 0 40px 0 15px;
                     }

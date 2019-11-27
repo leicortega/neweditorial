@@ -1,0 +1,61 @@
+.search-button i.ion-ios-search{
+    margin-left: -370px;
+    color: white;
+}
+.search-form input{
+    margin-top: 4%;
+    padding-left: 20PX;
+    background:#71838d;
+    border: 0;
+    color: white;
+}
+.search-form input::placeholder{
+    color: white;
+}
+.search-form input:-ms-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+.header-top_area {
+    background: #4e6470;
+}
+.ht-menu ul li a{
+    color: white;
+}
+.header-top_right ul li a{
+    color: white;
+}
+.sub-menu li a span.active_new{
+    color: #91151c;
+}
+.ht-menu ul li ul li{
+    background:#4e6470;
+    border: 0;
+    text-align: center;
+}
+.minicart-count_area{
+    border-right: 0;
+}
+.div_resp_menu ul li{
+    margin-right: -10px;
+}
+span.item-count{
+    font-size: 10px;
+}
+.header-logo_area img{
+    float: left;
+}
+.header-logo_area{
+    width: 100%;
+}
+.menu_footer{
+    background: #4e6470;
+    height: 34px;
+    width: 100%;
+    margin-top: -2%;
+}
+.header-bottom_area{
+    margin-top: 3%;
+}
+.header-middle_nav{
+    margin-top: -2%;
+}
