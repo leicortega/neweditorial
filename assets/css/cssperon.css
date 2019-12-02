@@ -100,3 +100,9 @@ i.ion-bag{
     width: 90%;
 }
 
+
+@media only screen and (max-width: 1300px) {
+    .main-nav > ul > li{
+        margin-top: -20px;
+    }
+

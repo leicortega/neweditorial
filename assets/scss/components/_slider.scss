@@ -87,7 +87,7 @@
 	background-image: url('../images/slider/2-1.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
+	background-size: contain;
 	min-height: 695px;
 	@include breakpoint(max-md_device){
 		min-height: 430px;

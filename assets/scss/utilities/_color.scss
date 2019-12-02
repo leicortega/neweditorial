@@ -471,16 +471,34 @@
         .footer-widgets {
 			> ul {
 				> li {
+                    .new-a{
+                        margin-top: 10px;
+                    }
                     > a{
 						@extend %basetransition;
-						padding-left: 0;
+                        padding-left: 0;
+                        font-size: 15px;
 					}
 					&:hover{
 						> a{
 							color: nth($colorList, $i);
-							padding-left: 10px;
-						}
-					}
+                            padding-left: 10px;
+                            font-size: 15px;
+                        }
+                        >a.cont-li{
+                            background: #b69331;
+                            padding-left: 0px;
+                            font-size: 25px;
+                        }
+                    }
+                    >a.cont-li{
+                        color: white;
+                        background: #90151c;
+                        font-size: 25px;
+                        border-radius: 20px;
+                        margin-top: 50px;
+                    }
+                    
 				}
 			}
         }
