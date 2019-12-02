@@ -3,7 +3,7 @@
 /*----------------------------------------*/
 /* ---Background Color--- */
 .bg-smoke_color{
-    background-color: $white-smoke_color;
+    background-color: #4d626c;
 }
 .bg-white_color{
     background-color: $white-color;
@@ -12,14 +12,33 @@
 @for $i from 1 through length($colorList) {
     .template-color-#{$i} {
         a{
-            color: $text-color;
+            color: rgb(0, 0, 0);
             &:hover{
-                color: nth($colorList, $i);
+                color: #90151C;
+            }
+        }
+        a.a-color-new{
+            color:#90151c;
+            text-decoration: none;
+            &:hover{
+                color:rgb(212, 203, 78);
+                text-decoration: none;
             }
         }
         [class*="active"]{
             > a{
                 color: nth($colorList, $i);
+            }
+        }
+        .footer-widgets {
+            ul li a{
+                color:white;
+            }
+            
+        }
+        .footer-bottom_area .copyriht {
+            span a.a-color-new font{
+                color:red;
             }
         }
 
@@ -34,7 +53,6 @@
                 }
             }
         }
-
         .kenne-btn{
             &:hover{
                 background-color: nth($colorList, $i);
@@ -61,6 +79,9 @@
                     }
                 }
             }
+        }
+        .kenne-footer_area .footer-top_area{
+            border-bottom:0;
         }
 
         .kenne-group_btn {
@@ -121,6 +142,11 @@
                         color: nth($colorList, $i);
                     }
                 }
+            }
+        }
+        .footer-widgets_title{
+            h4{
+                color: #dfd4a6;
             }
         }
         
@@ -471,9 +497,7 @@
         .footer-widgets {
 			> ul {
 				> li {
-                    .new-a{
-                        margin-top: 10px;
-                    }
+                  
                     > a{
 						@extend %basetransition;
                         padding-left: 0;
@@ -487,7 +511,7 @@
                         }
                         >a.cont-li{
                             background: #b69331;
-                            padding-left: 0px;
+                            padding-left: 10px;
                             font-size: 25px;
                         }
                     }
@@ -495,11 +519,14 @@
                         color: white;
                         background: #90151c;
                         font-size: 25px;
-                        border-radius: 20px;
-                        margin-top: 50px;
+                        padding-left: 10px;
+                        padding-right: 10px;
                     }
                     
-				}
+                }
+                li.new-a{
+                    margin-top: 20px;
+                }
 			}
         }
         
