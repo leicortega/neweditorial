@@ -1,3 +1,28 @@
+body::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(139, 12, 12);
+    
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+body::-webkit-scrollbar-button:vertical:decrement{
+    background-image: url(../images/arruws_up.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+body::-webkit-scrollbar-button:vertical:increment{
+    background-image: url(../images/arruws_down.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+
 .search-button i.ion-ios-search{
     color: white;
     margin-left: 0;
@@ -190,4 +215,22 @@ i.ion-bag{
 .b-i6:hover{
     background-image: url(../images/brand/6-2.png);
 }
-
+.whislist_new{
+    font-size: 30px;
+    color: #df2121;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.whislist_new a div span{
+    position: absolute;
+    top: -13px;
+    left: 58%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 11px;
+    background: #df2121;
+    color: white;
+}

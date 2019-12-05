@@ -8003,6 +8003,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: -8%;
 }
 
 .header-sticky.header-sticky.sticky {
