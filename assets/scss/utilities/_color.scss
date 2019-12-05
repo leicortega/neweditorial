@@ -59,6 +59,7 @@
             }
             &.transparent-btn{
                 border: 1px solid $border-color;
+                background: #90151c;
                 &:hover{
                     background-color: nth($colorList, $i);
                     border: 1px solid nth($colorList, $i);
@@ -463,9 +464,9 @@
         }
         
         .sticker{
-            background-color: nth($colorList, $i);
+            background-color: #157390;
             &:before {
-                border-color: transparent transparent transparent nth($colorList, $i);
+                border-color: transparent transparent transparent #157390;
             }
         }
 
