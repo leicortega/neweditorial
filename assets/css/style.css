@@ -5915,6 +5915,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   -webkit-background-size: contain;
           background-size: contain;
   min-height: 695px;
+  margin-top: -100px;
 }
 
 @media (max-width: 991px) {
