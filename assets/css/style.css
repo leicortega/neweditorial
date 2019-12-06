@@ -6383,7 +6383,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .product-item .single-product .product-img > a img {
-  width: 100%;
+  width: 222px;
+  height: 300px;
 }
 
 .product-item .single-product .product-img > a .secondary-img {
