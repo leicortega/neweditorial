@@ -1,0 +1,52 @@
+
+.all_container_pop{
+    position: fixed;
+    background: black;
+    color: aliceblue;
+    background: hsla(0, 5%, 20%, 0.486);
+    display: none;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 99999999999999999999;
+    cursor: url(light-close.png) 16 16, auto;
+    bottom: 0;
+}
+
+.button_open_pop p{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+
+}
+.container_text{
+    background: #91151c;
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
+    float: right;
+    cursor: default;
+    box-shadow: #1b2074 20px 20px 20px 20px;
+}
+p.cerar{
+    cursor: pointer;
+    color: black;
+    float: left;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+}
+.div_close{
+    position: fixed;
+    width: 70%;
+    height:100%;
+    float: left;
+    cursor: url(light-close.png) 16 16, auto;
+}
+

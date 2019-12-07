@@ -13,7 +13,9 @@
 
     <!-- CSS
 	============================================ -->
-
+<!--modal_pop-->
+<script src="assets/html/modal_whislist/js.js"></script>
+<link rel="stylesheet" href="assets/html/modal_whislist/css.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Fontawesome -->
@@ -400,7 +402,7 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li class="whislist_new" >
+                                                <li class="whislist_new" onclick="ejecutar()">
                                                         <a>
                                                             <div>
                                                                 <span>6</span>
@@ -425,6 +427,13 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="all_container_pop" id="all_container_pop" onclick="pase('all_container_pop')">
+                <div class="div_close" onclick="cerar()"></div>
+                <div class="container_text" onclick="pase('container_text')">
+                        <p class="cerar" onclick="cerar()">X</p>
+                    <p>hola que tal</p>
                 </div>
             </div>
             <div class="offcanvas-minicart_wrapper" id="miniCart">
