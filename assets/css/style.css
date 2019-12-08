@@ -51,6 +51,14 @@ INDEX:
 
 */
 @import url("https://fonts.googleapis.com/css?family=Prata|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+li.li_img_tienda:hover {
+  background: #90151bbb;
+}
+
+li.li_img_tienda:hover img.img_shop {
+  visibility: 10%;
+}
+
 /*----------------------------------------*/
 /*  00 - Base - Typography
 /*----------------------------------------*/

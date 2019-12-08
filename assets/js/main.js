@@ -5,7 +5,7 @@
 ---------------------------------*/
 	$(window).on('load', function () {
 		var wind = $(window);
-		$('.loading').delay(2000).fadeOut('slow');
+		$('.loading').delay(2500).fadeOut('slow');
 	});
 	/*----------------------------------------*/
 	/*   Sticky Menu Activation
