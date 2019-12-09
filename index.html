@@ -255,7 +255,7 @@
                                 <a href="https://www.usco.edu.co/es/">Portal USCO</a>
                             </li>
                             <li class="men_li">
-                                <a href="#">Convocatorias</a>
+                                <a href="#" class="concocatorias_all" id="convocatorias_all">Convocatorias</a>
                             </li>
                             <li class="men_li">
                                 <a href="faq.html">Preguntas Frecuentes</a>
@@ -402,7 +402,7 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li class="whislist_new" onclick="ejecutar()">
+                                                <li class="whislist_new" id="whislist_new" onclick="fade_in()">
                                                         <a>
                                                             <div>
                                                                 <span>6</span>
@@ -429,10 +429,10 @@
                     </div>
                 </div>
             </div>
-            <div class="all_container_pop" id="all_container_pop" onclick="pase('all_container_pop')">
-                <div class="div_close" onclick="cerar()"></div>
-                <div class="container_text" onclick="pase('container_text')">
-                        <p class="cerar" onclick="cerar()">X</p>
+            <div class="all_container_pop" id="all_container_pop" >
+                <div class="div_close" id="div_close" onclick="fade_Out()"></div>
+                <div class="container_text">
+                        <p class="cerar" id="cerar_now" onclick="fade_Out()">&#x1f7ac;</p>
                         <div class="text_true">
                             <div class="title_list"><h1>Lista De Deseos</h1></div>
                             <div class="menu_list">
@@ -2777,31 +2777,37 @@
                             <!--images zise: 180 x 70      px-->
                             <div class="brand-item">
                                     <div class="b-i b-i1"  onclick="window.open('cart.html', '_blank');">
+                                        &#x1f6d2;
                                     </div>
                                     <h6>Carrito</h6>
                             </div>
                             <div class="brand-item">
                                     <div class="b-i b-i2" onclick="window.open('blog-list_view.html', '_blank');">
+                                        &#x1f4f0;
                                     </div>
                                     <h6>Noticias</h6>
                             </div>
                             <div class="brand-item">
                                     <div class="b-i  b-i3"  onclick="window.open('about-us.html', '_blank');">
+                                        &#x1f46f;&#x1f575;&#x1f574;
                                     </div>
                                     <h6>Equipo</h6>
                             </div>
                             <div class="brand-item">
                                     <div class="b-i  b-i4" onclick="window.open('calendario.html', '_blank');">
+                                        &#x1f4c6;
                                     </div>
                                     <h6>Eventos</h6>
                             </div>
                             <div class="brand-item">
                                     <div class="b-i b-i5" onclick="window.open('https://www.google.com/maps/place/Universidad+Surcolombiana+-+Sede+Central/@2.9421162,-75.2986588,341m/data=!3m1!1e3!4m5!3m4!1s0x8e3b74f438bb0299:0x3d63073da14eebf7!8m2!3d2.9419992!4d-75.2985214?hl=es', '_blank');">
+                                        &#x1f310;
                                     </div>
                                     <h6>Ubicanos</h6>
                             </div>
                             <div class="brand-item">
                                     <div class="b-i b-i6" onclick="window.open('contact-us.html', '_blank');">
+                                        &#x1f4de;
                                     </div>
                                     <h6>Contactanos</h6>
                             </div>
