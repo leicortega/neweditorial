@@ -12,9 +12,6 @@
     cursor: url(light-close.png) 16 16, auto;
     bottom: 0;
 }
-.all_container_pop::after{
-transition: all 20s;
-}
 .button_open_pop p{
     cursor: pointer;
     background: rgb(255, 255, 255);
