@@ -44,3 +44,6 @@
     background-position: 0;
     cursor: pointer;
 }
+.kenne-tag-line > a:hover{
+    color:#90151c !important;
+}
