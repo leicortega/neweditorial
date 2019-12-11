@@ -115,6 +115,8 @@ i.ion-bag{
     display: flex;
     align-items: center;
 }
+
+
 .content_new{
     width: 100%;
     height: 90px;
@@ -130,11 +132,52 @@ i.ion-bag{
     .main-nav > ul > li{
         margin-top: -20px;
     }
+    .new_responsive_header{
+        display: none;
+    }
+    .new_responsive_header ul li{
+        display: block;
+    }
+    .new_menu_responsive span.span2{
+        display: none;
+        color: #91151c;
+        font-size: 30px;
+        margin-left: 1600%;
+        cursor: pointer;
+    }
+    .new_menu_responsive span.span1{
+        display: block ;
+        color: #91151c;
+        font-size: 30px;
+        margin-left: 1600%;
+        cursor: pointer;
+    }
+    .header-top_area .header-top_right{
+        margin-top: 120px !important;
+        background: white;
+        border: 1px solid #90151c;
+        z-index: 9;
+        margin-left: 58%;
+        padding-bottom: 20px;
+    }
+    .header-top_area .header-top_right > ul > li{
+        display: block !important;
+    margin-bottom: -15px !important;
+    }
+    .header-top_right ul li a{
+        color: black !important;
+    }
+    .header-top_right ul li a:hover{
+        color: #90151c !important;
+    }
+    
     }
  .center_menu{
      width: 130%;
  }
-
+ .new_menu_responsive span{
+     display: none;
+ }
  a.blle{
     width: 8px;
     height: 8px;

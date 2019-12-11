@@ -1476,7 +1476,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 [class*="active"] > a {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .footer-widgets ul li a {
@@ -1484,19 +1484,19 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .footer-bottom_area .copyriht span a.a-color-new font {
-  color: 90151c;
+  color: red;
 }
 
 .template-color-2 .loading .middle .loader {
-  border: 4px solid #90151c;
+  border: 4px solid #df2121;
 }
 
 .template-color-2 .loading .middle .loader-inner {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .kenne-btn:hover {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .kenne-btn.transparent-btn {
@@ -1505,8 +1505,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .kenne-btn.transparent-btn:hover {
-  background-color: #90151c;
-  border: 1px solid #90151c;
+  background-color: #df2121;
+  border: 1px solid #df2121;
 }
 
 .template-color-2 .kenne-btn.transparent-btn.transparent-btn-2 {
@@ -1524,7 +1524,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .kenne-btn.transparent-btn.black-color:hover {
-  border-color: #90151c;
+  border-color: #df2121;
   color: #ffffff !important;
 }
 
@@ -1533,40 +1533,40 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .kenne-group_btn > ul > li > a.add-to_cart:hover {
-  background-color: #90151c !important;
+  background-color: #df2121 !important;
   color: #ffffff !important;
 }
 
 .template-color-2 .kenne-group_btn > ul > li > a:hover {
-  border-color: #90151c !important;
+  border-color: #df2121 !important;
 }
 
 .template-color-2 .kenne-login_btn:hover,
 .template-color-2 .kenne-register_btn:hover {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .kenne-cart_btn a:hover {
-  background: #90151c;
+  background: #df2121;
   color: #ffffff !important;
 }
 
 .template-color-2 .search-btn:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .reply-btn a {
-  color: #90151c;
-  border: 1px solid #90151c;
+  color: #df2121;
+  border: 1px solid #df2121;
 }
 
 .template-color-2 .reply-btn a:hover {
   color: #ffffff !important;
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .banner-area-5 .banner-item .banner-content > span {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .footer-widgets_title h4 {
@@ -1574,131 +1574,131 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .form-group .required {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .kenne-contact-form_btn:hover {
-  background-color: #90151c !important;
+  background-color: #df2121 !important;
   color: #ffffff;
-  border-color: #90151c !important;
+  border-color: #df2121 !important;
 }
 
 .template-color-2 .about-us_btn {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .kenne-product-stock-status span.in-stock, .template-color-2 .kenne-product-stock-status span.out-stock {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .coupon input.button:hover,
 .template-color-2 .coupon2 input.button:hover {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .cart-page-total a:hover {
-  background: #90151c;
-  border-color: #90151c;
+  background: #df2121;
+  border-color: #df2121;
   color: #ffffff !important;
 }
 
 .template-color-2 .coupon-accordion h3 {
-  border-top: 3px solid #90151c;
+  border-top: 3px solid #df2121;
 }
 
 .template-color-2 .coupon-accordion span:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .coupon-accordion .coupon-content .coupon-info p.form-row input[type="submit"]:hover {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .coupon-accordion .coupon-content .coupon-info p.checkout-coupon input[type="submit"] {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .coupon-accordion .coupon-content .coupon-info p.lost-password a:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .coupon-checkout-content .coupon-info .checkout-coupon input[type="submit"]:hover {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .country-select label span.required, .template-color-2.checkout-form-list label span.required {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .panel-title a:hover {
-  color: #90151c !important;
+  color: #df2121 !important;
 }
 
 .template-color-2 .order-button-payment input:hover {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .compare-product-name a:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .modal-body button span:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .btn-close:hover {
-  color: #90151c !important;
+  color: #df2121 !important;
 }
 
 .template-color-2 .offcanvas-search button.search_btn:hover > i {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .main-nav > ul > li:hover > a {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .search-button:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .tty-slick-text-btn:hover {
-  background-color: #90151c;
+  background-color: #df2121;
   color: #ffffff !important;
 }
 
 .template-color-2 .minicart-wrap > a.minicart-btn .minicart-count_area > span.item-count {
-  background-color: #be0912;
+  background-color: #df2121;
   color: #ffffff;
 }
 
 .template-color-2 .minicart-wrap > a.minicart-btn .minicart-count_area i {
-  color: #be0912;
+  color: #df2121;
 }
 
 .template-color-2 .offcanvas-minicart_wrapper .minicart-list > li.minicart-product .product-item_img:hover {
-  border-color: #90151c !important;
+  border-color: #df2121 !important;
 }
 
 .template-color-2 .megamenu-holder > ul > li > span.megamenu-title:before {
   content: "";
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .product-view-mode > a.active {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .section-title .product-tab > ul.product-menu > li > a.active {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .sp-img_slider-nav .slick-slide.slick-current img {
-  border-color: #90151c;
+  border-color: #df2121;
 }
 
 .template-color-2 .kenne-paginatoin-area .kenne-pagination-box.primary-color {
-  border: 2px solid #90151c;
+  border: 2px solid #df2121;
 }
 
 .template-color-2 .kenne-paginatoin-area .kenne-pagination-box.primary-color > li:last-child > a {
@@ -1706,39 +1706,39 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .kenne-paginatoin-area .kenne-pagination-box.primary-color > li.active > a {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .kenne-paginatoin-area .kenne-pagination-box.primary-color > li > a {
-  border-right: 1px solid #90151c;
+  border-right: 1px solid #df2121;
 }
 
 .template-color-2 .kenne-paginatoin-area .kenne-pagination-box.primary-color > li > a:hover {
-  color: #90151c !important;
+  color: #df2121 !important;
 }
 
 .template-color-2 .tooltip-inner {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
 .template-color-2 .tooltip.bs-tooltip-top .arrow::before {
-  border-top-color: #90151c;
+  border-top-color: #df2121;
 }
 
 .template-color-2 .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
 .template-color-2 .bs-tooltip-bottom .arrow::before {
-  border-bottom-color: #90151c;
+  border-bottom-color: #df2121;
 }
 
 .template-color-2 .tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before,
 .template-color-2 .tooltip.bs-tooltip-right .arrow::before {
-  border-right-color: #90151c;
+  border-right-color: #df2121;
 }
 
 .template-color-2 .bs-tooltip-auto[x-placement^=left] .arrow::before,
 .template-color-2 .bs-tooltip-left .arrow::before {
-  border-left-color: #90151c;
+  border-left-color: #df2121;
 }
 
 .template-color-2 .sticker {
@@ -1750,15 +1750,15 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .new-price {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .rating-box > ul > li {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .add-actions > ul > li > a:hover {
-  background-color: #90151c !important;
+  background-color: #df2121 !important;
   color: #ffffff !important;
 }
 
@@ -1768,7 +1768,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .footer-widgets > ul > li:hover > a {
-  color: #90151c;
+  color: #df2121;
   padding-left: 10px;
   font-size: 15px;
 }
@@ -1792,7 +1792,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .newsletter-btn {
-  background-color: #90151c;
+  background-color: #df2121;
   color: #ffffff;
 }
 
@@ -1801,12 +1801,12 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .kenne-social_link > ul > li > a:hover {
-  background-color: #90151c;
+  background-color: #df2121;
   color: #ffffff !important;
 }
 
 .template-color-2 .account-page-area .myaccount-tab-trigger li a.active {
-  background: #90151c;
+  background: #df2121;
   color: #ffffff;
 }
 
@@ -1815,53 +1815,53 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 .account-page-area .myaccount-tab-trigger li a:hover {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .error-content_wrapper .error-area .error h1 {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .error-content_wrapper .error-area .error .btn {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .error-content_wrapper .error-area .error .btn:after {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .error-content_wrapper .error-area .error .searchform button.searchform__submit {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-2 .frequently-accordion .actives {
-  border: 1px solid #90151c;
+  border: 1px solid #df2121;
 }
 
 .template-color-2 .frequently-accordion .card-header a:hover {
-  color: #90151c !important;
+  color: #df2121 !important;
 }
 
 .template-color-2 .kenne-tags_list li a:hover {
   color: #ffffff !important;
-  background-color: #90151c;
-  border-color: #90151c;
+  background-color: #df2121;
+  border-color: #df2121;
 }
 
 .template-color-2 .overview-content > h2:after {
-  background: #90151c;
+  background: #df2121;
 }
 
 .template-color-2 .overview-content > h2 span {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .count-title h2 {
-  color: #90151c;
+  color: #df2121;
 }
 
 .template-color-2 .scroll-to-top:hover {
-  background-color: #90151c;
+  background-color: #df2121;
 }
 
 .template-color-3 a {
@@ -7613,10 +7613,6 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .header-top_area .header-top_right {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
