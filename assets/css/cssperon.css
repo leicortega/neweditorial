@@ -175,9 +175,14 @@ i.ion-bag{
  .center_menu{
      width: 130%;
  }
+ @media only screen and (min-width: 1300px){
  .new_menu_responsive span{
-     display: none;
+     display: none !important;
  }
+ .new_responsive_header{
+    display: inline-block!important;
+}
+}
  a.blle{
     width: 8px;
     height: 8px;

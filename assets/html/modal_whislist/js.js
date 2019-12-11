@@ -8,14 +8,13 @@ var vare;
 vare=1;
 function mostrar_menu(){
   $('#new_responsive_header').fadeIn(800);
-  $('#span2').fadeIn(800);
-  $('#span1').fadeOut(800);
+  $('#span2').fadeIn(80);
+  $('#span1').fadeOut(80);
 }
 
 function ocultar_menu(){
   $('#new_responsive_header').fadeOut(800);
-  $('#span2').fadeOut(800);
-  $('#span1').fadeIn(800);
+  $('#span2').fadeOut(80);
+  $('#span1').fadeIn(80);
 }
-
 

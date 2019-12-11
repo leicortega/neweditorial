@@ -9457,7 +9457,6 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 
 /* ---Contact Main Page--- */
 .contact-main-page {
-  padding: 100px 0 80px;
   /* ---Contact Form Area--- */
 }
 
@@ -9538,20 +9537,20 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .contact-main-page .contact-form-content .contact-form .form-group input {
-  background-color: #ffffff;
+  background-color: #c4b9ba62;
   width: 100%;
   height: 50px;
   line-height: 50px;
   outline: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #90151c;
   padding-left: 20px;
 }
 
 .contact-main-page .contact-form-content .contact-form .form-group textarea {
-  background-color: #ffffff;
+  background-color: #c4b9ba62;
   width: 100%;
   outline: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #90151c;
   padding-left: 20px;
   line-height: 50px;
   height: 200px;
@@ -9564,7 +9563,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   border-radius: 3px;
   font-weight: 500;
   font-size: 12px;
-  background-color: #242424;
+  background-color: #90151c;
   border: 1px solid #242424;
   color: #ffffff;
   text-transform: uppercase;
