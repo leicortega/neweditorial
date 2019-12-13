@@ -1,0 +1,49 @@
+.news_static{
+    position: sticky !important;
+    height: 600px;
+    top: 10%;
+    background: #ffffff;
+    z-index: 9;
+    overflow: scroll;
+    border: 1px solid #90151bc5;
+}
+.whislist_new_news a div span.span_6{
+    position: absolute;
+    top: -13px;
+    right: 105px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 11px;
+    background: #df2121;
+    color: white;
+}
+.news_static::-webkit-scrollbar {
+    width: 4px;     /* Tamaño del scroll en vertical */
+    height: 4px;    /* Tamaño del scroll en horizontal */
+}
+.news_static::-webkit-scrollbar-thumb{
+    background: rgba(139, 12, 12, 0.432);
+    
+}
+.news_static::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b38c;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.news_static::-webkit-scrollbar-button:vertical:decrement{
+    background-image: url(../images/arruws_up.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+.news_static::-webkit-scrollbar-button:vertical:increment{
+    background-image: url(../images/arruws_down.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+.kenne-tag-line > a:hover{
+    color:#90151c !important;
+}

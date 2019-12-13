@@ -116,6 +116,8 @@ i.ion-bag{
     display: flex;
     align-items: center;
 }
+
+
 .content_new{
     width: 100%;
     /* height: 90px; */
@@ -131,11 +133,57 @@ i.ion-bag{
     .main-nav > ul > li{
         margin-top: -20px;
     }
+    .new_responsive_header{
+        display: none;
+    }
+    .new_responsive_header ul li{
+        display: block;
+    }
+    .new_menu_responsive span.span2{
+        display: none;
+        color: #91151c;
+        font-size: 30px;
+        margin-left: 1600%;
+        cursor: pointer;
+    }
+    .new_menu_responsive span.span1{
+        display: block ;
+        color: #91151c;
+        font-size: 30px;
+        margin-left: 1600%;
+        cursor: pointer;
+    }
+    .header-top_area .header-top_right{
+        margin-top: 120px !important;
+        background: white;
+        border: 1px solid #90151c;
+        z-index: 9;
+        margin-left: 58%;
+        padding-bottom: 20px;
+    }
+    .header-top_area .header-top_right > ul > li{
+        display: block !important;
+    margin-bottom: -15px !important;
+    }
+    .header-top_right ul li a{
+        color: black !important;
+    }
+    .header-top_right ul li a:hover{
+        color: #90151c !important;
+    }
+    
     }
  .center_menu{
      width: 130%;
  }
-
+ @media only screen and (min-width: 1300px){
+ .new_menu_responsive span{
+     display: none !important;
+ }
+ .new_responsive_header{
+    display: inline-block!important;
+}
+}
  a.blle{
     width: 8px;
     height: 8px;
@@ -149,7 +197,7 @@ i.ion-bag{
     border-radius: 20px;
     box-shadow: inset 0 0 3px rgba(0,0,0,.3);
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 120px;
  }
  a.active_a_slider{
      background: #00a6ff;
@@ -157,65 +205,22 @@ i.ion-bag{
 .new_container{
     justify-content: center;
 }
+
 .b-i{
-    background-repeat: no-repeat;
-	background-position: center center;
-    background-size: 100%;
+    width: 180px;
+    height: 70px;
+    font-size: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-}
+    }
 .b-i:hover{
-    background-repeat: no-repeat;
-	background-position: center center;
-    background-size: 100%;
-}
-.b-i1{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/1-1.jpeg);
+        color: #b3b3b342;
     }
-.b-i1:hover{
-    background-image: url(../images/brand/1-2.jpg);
-}
-.b-i2{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/2-1.png);
-    }
-.b-i2:hover{
-    background-image: url(../images/brand/2-2.png);
-}
-.b-i3{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/3-1.png);
-    }
-.b-i3:hover{
-    background-image: url(../images/brand/3-2.png);
-}
-.b-i4{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/4-1.png);
-    }
-.b-i4:hover{
-    background-image: url(../images/brand/4-2.png);
-}
-.b-i5{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/5-1.png);
-    }
-.b-i5:hover{
-    background-image: url(../images/brand/5-2.png);
-}
-.b-i6{
-    width: 180px;
-    height: 70px;
-    background-image: url(../images/brand/6-1.png);
-    }
-.b-i6:hover{
-    background-image: url(../images/brand/6-2.png);
-}
+
+
 .whislist_new{
     font-size: 30px;
     color: #df2121;
