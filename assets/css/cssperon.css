@@ -153,7 +153,7 @@ i.ion-bag{
         margin-left: 1600%;
         cursor: pointer;
     }
-    .header-top_area .header-top_right{
+    /* .header-top_area .header-top_right{
         margin-top: 120px !important;
         background: white;
         border: 1px solid #90151c;
@@ -163,10 +163,10 @@ i.ion-bag{
     }
     .header-top_area .header-top_right > ul > li{
         display: block !important;
-    margin-bottom: -15px !important;
-    }
+        margin-bottom: -15px !important;
+    } */
     .header-top_right ul li a{
-        color: black !important;
+        color: #ffffff !important;
     }
     .header-top_right ul li a:hover{
         color: #90151c !important;
