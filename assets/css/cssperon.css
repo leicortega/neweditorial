@@ -263,3 +263,23 @@ span.icon_filter:hover{
     display: none;
     cursor: url(../html/modal_whislist/light-close.png ) 16 16, auto;
 }
+.abc_foot ul li{
+    display: inline-block;
+    margin-right: 0%;
+    height: 22px;
+    text-align: center;
+    margin-top: 1%;
+    background: white;
+    width: 6%;
+    border: 1px solid #90151c
+}
+.abc_foot ul li:hover{
+    background: #90151c;
+    color: white !important;
+    cursor: pointer;
+}
+.abc_foot ul li a:hover{
+    background: #90151c;
+    color: white !important;
+    cursor: pointer;
+}
