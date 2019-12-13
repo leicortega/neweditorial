@@ -6,6 +6,27 @@
 	@include breakpoint(max-md_device){
 		padding: 100px 0 95px;
 	}
+	span.icon_filter{
+		@include breakpoint(max-md_device){
+			display: block;
+		}
+	}
+	.clss_sidebar_categories{
+		@include breakpoint(max-md_device){
+			background: #ffffff;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			overflow: scroll;
+			left: 0%;
+			padding-left: 2%;
+			width: 35%;
+			z-index: 9;
+			display: none;
+		}
+	}
 	// Kenne's Sidebar Categories
 	.kenne-sidebar-catagories_area {
 		@include breakpoint(max-md_device){
