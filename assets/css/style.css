@@ -1458,15 +1458,15 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 a {
-  color: black;
+  color: #4e6470;
 }
 
 .template-color-2 a:hover {
-  color: #90151C;
+  color: #8F141B !important;
 }
 
 .template-color-2 a.a-color-new {
-  color: #90151c;
+  color: #8F141B;
   text-decoration: none;
 }
 
@@ -1476,7 +1476,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .template-color-2 [class*="active"] > a {
-  color: #df2121;
+  color: #8F141B;
 }
 
 .template-color-2 .footer-widgets ul li a {
@@ -5253,6 +5253,10 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
           transform: rotate(87deg);
   display: block;
 }
+/* SECCION NOTICIAS */
+.background-1{
+  background: #f5f5f5;
+}
 
 /* ---Slick appendArrow class style--- */
 .product-arrow,
@@ -7530,7 +7534,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 /*----------------------------------------*/
 /* ---Header Top Area--- */
 .header-top_area .header-top_nav {
-  border-bottom: 1px solid #ffffff;
+  /* border-bottom: 1px solid #ffffff; */
 }
 
 .header-top_area .ht-menu > ul {
@@ -7613,6 +7617,10 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .header-top_area .header-top_right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
@@ -7634,8 +7642,16 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 /* ---Header Middle Area--- */
+.main-menu_area{
+  margin-top: 1%;
+}
+@media (max-width: 1300px) {
+  .main-menu_area{
+    margin-top: 4%;
+  }
+}
 .header-middle_area .header-middle_nav {
-  padding: 30px 0;
+  /* padding: 30px 0; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7817,9 +7833,11 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .main-nav > ul > li > a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 20px 0;
   display: block;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .main-nav > ul > li > a > i {
@@ -8009,7 +8027,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .header-sticky .sticky-header_nav .header-logo_area > a > img {
-  max-width: 120px;
+  /* max-width: 120px; */
+  padding: 10px;
 }
 
 @media (max-width: 1199px) {
