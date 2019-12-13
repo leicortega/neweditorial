@@ -7515,6 +7515,14 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 /* ---Header Middle Area--- */
+.main-menu_area{
+  margin-top: 1%;
+}
+@media (max-width: 1300px) {
+  .main-menu_area{
+    margin-top: 4%;
+  }
+}
 .header-middle_area .header-middle_nav {
   /* padding: 30px 0; */
   display: -webkit-box;
