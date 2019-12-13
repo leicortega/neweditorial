@@ -7533,9 +7533,6 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 /*  25 - Section - Header
 /*----------------------------------------*/
 /* ---Header Top Area--- */
-.header-top_area .header-top_nav {
-  /* border-bottom: 1px solid #ffffff; */
-}
 
 .header-top_area .ht-menu > ul {
   display: -webkit-box;
@@ -7635,6 +7632,13 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   padding: 8px 15px;
   display: block;
   font-size: 12px;
+}
+@media (max-width: 495px) {
+  .header-top_area .header-top_right > ul > li > a {
+    padding: 4px 10px;
+    display: block;
+    font-size: 10px;
+  }
 }
 
 .header-top_area .header-top_right > ul > li:last-child > a {

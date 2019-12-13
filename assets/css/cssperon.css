@@ -32,6 +32,7 @@ body::-webkit-scrollbar-button:vertical:increment{
     width: 20px;
     margin-left: -2%;
     height: 26px;
+    position: absolute;
 }
 .search-form input{
     /* margin-top: 4%; */
@@ -77,6 +78,11 @@ span.item-count{
 }
 i.ion-bag{
     font-size: 20px;
+}
+@media (max-width: 495px) {
+    i.ion-bag{
+        font-size: 15px;
+    }
 }
 .header-logo_area img{
     float: left;
