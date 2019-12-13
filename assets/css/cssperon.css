@@ -42,6 +42,11 @@ body::-webkit-scrollbar-button:vertical:increment{
     border: 0;
     color: white;
 }
+@media (max-width: 400px) {
+    .search-form input{
+        width: 80px;
+    }
+}
 .search-form input::placeholder{
     color: white;
 }
@@ -103,13 +108,29 @@ i.ion-bag{
 }
 .menu_footer ul.men_ul li.men_li{
     float: left;
-    /* margin-left: 100px; */
     padding: 0 35px;
+}
+@media (max-width: 796px) {
+    .menu_footer ul.men_ul li.men_li{
+        padding: 0 15px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 563px) {
+    .menu_footer ul.men_ul li.men_li{
+        padding: 0 10px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 451px) {
+    .menu_footer ul.men_ul li.men_li{
+        padding: 0 8px;
+        font-size: 8px;
+    }
 }
 .menu_footer {
     display: flex;
     align-items: center;
-    /* margin-bottom: 10px; */
 }
 .menu_footer ul.men_ul li.men_li a{
     color:white;
