@@ -481,7 +481,7 @@
 .price-filter {
 	margin-top: 35px;
 	.ui-widget-content {
-		background-color: $border-color;
+		background-color: rgba(255, 255, 255, 0);
 		border: none;
 		border-radius: 0;
 		box-shadow: none;
@@ -499,14 +499,14 @@
 		-moz-border-radius-bottomright: 25px;
 	}
 	.ui-slider-range {
-		background: $primary-color;
+		background: #90151c;
 		border: none;
 		box-shadow: none;
 		height: 100%;
 	}
 	.ui-slider-handle {
 		background: $white-color;
-		border: 4px solid $primary-color;
+		border: 4px solid #90151c;
 		display: block;
 		outline: none;
 		width: 20px;
@@ -519,7 +519,7 @@
 		box-shadow: 0px 0px 6.65px .35px rgba(0, 0, 0, 0.15);
 		-webkit-transform: translate(0, -50%);
 		transform: translate(0, -50%);
-		cursor: e-resize;
+		cursor: pointer;
 		@extend %basetransition;
 		&:hover {
 			background-color: $primary-color;

@@ -239,3 +239,26 @@ i.ion-bag{
     background: #df2121;
     color: white;
 }
+span.icon_filter{
+    font-size: 40px;
+    color: #90151c;
+    margin-left: 0%;
+    margin-right: 5%;
+    display: none;
+}
+span.icon_filter:hover{
+    cursor: pointer;
+    color: #90151ba9;
+}
+.new_container_close{
+    width: 65%;
+    background: #78797a69;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    cursor: url(../html/modal_whislist/light-close.png ) 16 16, auto;
+}

@@ -1,0 +1,24 @@
+.clss_sidebar_categories::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.clss_sidebar_categories::-webkit-scrollbar-thumb{
+    background: rgba(139, 12, 12, 0.664);
+    
+}
+.clss_sidebar_categories::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.clss_sidebar_categories::-webkit-scrollbar-button:vertical:decrement{
+    background-image: url(../../images/arruws_up.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+.clss_sidebar_categories::-webkit-scrollbar-button:vertical:increment{
+    background-image: url(../../images/arruws_down.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}

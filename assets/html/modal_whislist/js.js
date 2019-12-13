@@ -137,3 +137,16 @@ function menu_about(recibe){
           break;
       }
 }
+
+function filter_function(){
+  var html=document.getElementById('clss_sidebar_categories');
+  html.style.display='block';
+  var html1=document.getElementById('new_container_close');
+  html1.style.display='block';
+}
+function filter_funcion_reverse(){
+  var html=document.getElementById('clss_sidebar_categories');
+  html.style.display='none';
+  var html1=document.getElementById('new_container_close');
+  html1.style.display='none';
+}
