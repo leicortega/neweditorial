@@ -311,18 +311,3 @@ span.icon_filter:hover{
     cursor: pointer;
 }
 
-
-.latest-blog_arrow button.tty-slick-text-next{
-    display: block;
-    position: absolute;
-    z-index: 2;
-    margin-left: 80% !important;
-    margin-top: 2%;
-}
-.latest-blog_arrow button.tty-slick-text-prev{
-    display: block;
-    position: absolute;
-    z-index: 2;
-    margin-left: -5% !important;
-    margin-top: 2%;
-}
