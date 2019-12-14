@@ -402,17 +402,18 @@
 	-------------------------------- */
 	var sliderrange = $('#slider-range');
 	var amountprice = $('#amount');
+	var amountprice1 = $('#amount1');
 	$(function () {
 		sliderrange.slider({
 			range: true,
-			min: 80,
-			max: 1900,
-			values: [0, 2000],
+			min: 0,
+			max: 200000,
+			values: [0, 200000],
 			slide: function (event, ui) {
-				amountprice.val('$' + ui.values[0] + ' - $' + ui.values[1]);
+				amountprice.val(ui.values[0]);amountprice1.val(ui.values[1]);
 			}
 		});
-		amountprice.val('$' + sliderrange.slider('values', 0) + ' - $' + sliderrange.slider('values', 1));
+		amountprice.val(sliderrange.slider('values', 0));amountprice1.val(sliderrange.slider('values', 1));
 	});
 	/*----------------------------------------*/
 	/*  Slick Carousel
@@ -706,17 +707,18 @@
 -------------------------------- */
 	var sliderrange = $('#slider-range');
 	var amountprice = $('#amount');
+	var amountprice1 = $('#amount1');
 	$(function () {
 		sliderrange.slider({
 			range: true,
-			min: 20,
-			max: 100,
-			values: [0, 100],
+			min: 0,
+			max: 200000,
+			values: [0, 200000],
 			slide: function (event, ui) {
-				amountprice.val('$' + ui.values[0] + ' - $' + ui.values[1]);
+				amountprice.val(ui.values[0]);amountprice1.val( ui.values[1]);
 			}
 		});
-		amountprice.val('$' + sliderrange.slider('values', 0) + ' - $' + sliderrange.slider('values', 1));
+		amountprice.val(sliderrange.slider('values', 0));amoutnprice1.val(sliderrange.slider('values', 1));
 	});
 
 	/*--------------------------------

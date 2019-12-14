@@ -889,6 +889,15 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
           align-items: center;
 }
 
+.price-filter .price-slider-amount .label-input {
+  display: initial;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .price-filter .price-slider-amount .label-input label {
   font-size: 14px;
   margin: 0;
@@ -902,14 +911,17 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
           box-shadow: none;
   font-size: 14px;
   height: inherit;
+  border-radius: 25%;
+  border: 1px solid #d8cea3;
   padding-left: 5px;
-  width: 99px;
+  width: 90px;
 }
 
 .price-filter .price-slider-amount .label-input .filter-btn {
   border: 1px solid #90151c;
   width: 85px;
   height: 40px;
+  margin-left: 10%;
   line-height: 39px;
   border-radius: 50px;
 }

@@ -11,6 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
+
     <!-- CSS
 	============================================ -->
 <!--modal_pop-->
@@ -957,8 +958,11 @@
                                     <div class="price-slider-amount">
                                         <div class="label-input">
                                             <label>Precio: </label>
-                                            <input type="text" id="amount" name="price" placeholder="Add Your Price" />
-                                            <button class="filter-btn">Filtrar</button>
+                                            <span>$</span>
+                                            <input type="text" id="amount" name="price" placeholder="Añade tu precio minimo" />
+                                            <span> - $</span>
+                                            <input type="text" id="amount1" name="price" placeholder="Añade tu precio maximo" />
+                                            <button class="filter-btn"><span onclick="real_valu()">Filtrar</span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1063,6 +1067,27 @@
                                     <h5>Autores</h5>
                                     <div class="abc_foot">
                                         <ul>
+                                            <div class="latest-blog_arrow"></div>
+                                            <div class="col-lg-12">
+                                                <div class="kenne-element-carousel latest-blog_slider slider-nav" data-slick-options='{
+                                                "slidesToShow":  4,
+                                                "slidesToScroll": 1,
+                                                "infinite": true,
+                                                "arrows": true,
+                                                "dots": false,
+                                                "spaceBetween": 30,
+                                                "appendArrows": ".latest-blog_arrow"
+                                                }' data-slick-responsive='[
+                                                {"breakpoint":992, "settings": {
+                                                "slidesToShow": 1
+                                                }},
+                                                {"breakpoint":768, "settings": {
+                                                "slidesToShow": 1
+                                                }},
+                                                {"breakpoint":575, "settings": {
+                                                "slidesToShow": 1
+                                                }}
+                                            ]'>                        
                                             <li><a>A</a></li>
                                             <li><a>B</a></li>
                                             <li><a>C</a></li>
@@ -1088,7 +1113,7 @@
                                             <li><a>W</a></li>
                                             <li><a>X</a></li>
                                             <li><a>Y</a></li>
-                                            <li><a>Z</a></li>
+                                            <li><a>Z</a></li></div>
                                         </ul>
                                     </div>
                                 </div>
@@ -2422,8 +2447,8 @@
 <script src="assets/js/vendor/vendor.min.js"></script>
 <script src="assets/js/plugins/plugins.min.js"></script> -->
 
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
 
 </body>
 

@@ -534,6 +534,9 @@
 		justify-content: flex-start;
 		align-items: center;
 		.label-input {
+			display: initial;
+			text-align: center;
+			align-items: center;
 			label {
 				font-size: 14px;
 				margin: 0;
@@ -545,13 +548,16 @@
 				box-shadow: none;
 				font-size: 14px;
 				height: inherit;
+				border-radius:25%;
+				border: 1px solid #d8cea3;
 				padding-left: 5px;
-				width: 99px;
+				width: 90px;
 			}
 			.filter-btn {
 				border: 1px solid #90151c;
 				width: 85px;
 				height: 40px;
+				margin-left: 10%;
 				line-height: 39px;
 				border-radius: 50px;
 				@extend %basetransition;

@@ -22,3 +22,15 @@
     background-position: 0;
     cursor: pointer;
 }
+.slick-list{
+    position: relative;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    width: 75% !important;
+    height: 50px;
+    margin: 0;
+    margin-left: 14% !important;
+    margin-right: 5%;
+    padding: 0;
+}
