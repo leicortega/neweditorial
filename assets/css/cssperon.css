@@ -310,5 +310,11 @@ span.icon_filter:hover{
     color: white !important;
     cursor: pointer;
 }
+.latest-blog_arrow .tty-slick-text-next, .latest-blog_arrow .tty-slick-text-prev{
+    border: 1px solid #90151c !important;
+}
 
+.latest-blog_arrow{
+    background-color: #f5f5f5 !important;
+}
 
