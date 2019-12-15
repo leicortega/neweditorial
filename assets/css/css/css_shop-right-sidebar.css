@@ -32,6 +32,7 @@
     margin: 0;
     margin-left: 14% !important;
     margin-right: 5%;
+
     padding: 0;
 }
 
@@ -48,4 +49,14 @@
     z-index: 2;
     margin-left: -5% !important;
     margin-top: 2%;
+}
+.price-filter .ui-slider-range{
+    background: #d8cea3 !important;
+}
+.price-filter .ui-slider-handle{
+    border: 4px solid #90151c !important;
+}
+.price-filter .filter-btn{
+    margin-top: 2%;
+    border: 1px solid #90151c !important;
 }
