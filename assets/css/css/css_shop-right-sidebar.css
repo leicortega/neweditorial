@@ -35,7 +35,10 @@
 
     padding: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2bfe3f5f2e8333829140f82aa5f7bb624816c921
 .latest-blog_arrow button.tty-slick-text-next{
     display: block;
     position: absolute;
@@ -50,6 +53,7 @@
     margin-left: -5% !important;
     margin-top: 2%;
 }
+<<<<<<< HEAD
 .price-filter .ui-slider-range{
     background: #d8cea3 !important;
 }
@@ -60,3 +64,5 @@
     margin-top: 2%;
     border: 1px solid #90151c !important;
 }
+=======
+>>>>>>> 2bfe3f5f2e8333829140f82aa5f7bb624816c921
