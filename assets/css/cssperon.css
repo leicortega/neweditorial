@@ -443,3 +443,25 @@ textarea.review-textarea{
     color: white !important;
     border: 1px solid black !important;
 }
+img.img_kenne_product_cart{
+    width: 40%;
+    height: 18%;
+}
+.remove_go{
+    font-size: 30px !important;
+}
+.kenne-product-thumbnail{
+    width: 30% !important;
+}
+.container_general_cart input.button, .container_general_cart a.button{
+border: 1px solid #90151c !important;
+background: none !important;
+border-radius: 16px !important;
+color: black !important;
+}
+.container_general_cart input.button:hover, .container_general_cart a.button:hover{
+    border: 1px solid black !important;
+    background: #90151c !important;
+    border-radius: 16px !important;
+    color: white !important;
+    }
