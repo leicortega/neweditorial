@@ -429,3 +429,17 @@ textarea.review-textarea{
     border: 2px solid #000000 !important;
     border-radius: 16px !important;
 }
+.container_new_form input, .container_new_form select, .container_new_form textarea{
+    border: 1px solid #d4d2d2d3 !important;
+    border-radius: 7px !important;
+}
+.order-button-payment input{
+    background: none !important;
+    color: black !important;
+    border: 1px solid #90151c !important;
+}
+.order-button-payment input:hover{
+    background: #90151c !important;
+    color: white !important;
+    border: 1px solid black !important;
+}
