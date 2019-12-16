@@ -14,8 +14,8 @@
 }
 .kenne-btn {
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
-	background-color: $text-color;
-    color: $white-color !important;
+	border: 1px solid #90151c;
+    color: black !important;
 	width: 175px;
 	height: 45px;
 	line-height: 45px;
@@ -26,6 +26,11 @@
     @extend %basetransition;
     border-radius: 25px;
 	font-size: 16px;
+	&:hover{
+		background: #90151c !important;
+		border: 1px solid #000000;
+		color: white !important;
+	}
 	&.transparent-btn{
 		background-color: transparent;
 	}

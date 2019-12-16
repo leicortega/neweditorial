@@ -25,7 +25,11 @@ $resultado=mysqli_query($conexion,$consulta);?>
 <script src='packages/daygrid/main.js'></script>
 <script src='packages/timegrid/main.js'></script>
 <script>
-
+var mecha = new Date();
+var dia = mecha.getDate();
+var mes=mecha.getMonth();
+var año = mecha.getFullYear();
+var fetch_completed=año+ '-'+ mes+ '-'+dia;
   document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
 
@@ -36,22 +40,22 @@ $resultado=mysqli_query($conexion,$consulta);?>
         center: 'title',
         right: 'dayGridMonth,timeGridWeek,timeGridDay'
       },
-      defaultDate: '2019-08-12',
+      defaultDate: fetch_completed,
       navLinks: true, // can click day/week names to navigate views
       selectable: true,
       selectMirror: true,
-      select: function(arg) {
-        var title = prompt('Event Title:');
-        if (title) {
-          calendar.addEvent({
-            title: title,
-            start: arg.start,
-            end: arg.end,
-            allDay: arg.allDay
-          })
-        }
-        calendar.unselect()
-      },
+      // select: function(arg) {
+      //   var title = prompt('Event Title:');
+      //   if (title) {
+      //     calendar.addEvent({
+      //       title: title,
+      //       start: arg.start,
+      //       end: arg.end,
+      //       allDay: arg.allDay
+      //     })
+      //   }
+      //   calendar.unselect()
+      // }
       editable: true,
       eventLimit: true, // allow "more" link when too many events
       events: [
@@ -86,7 +90,7 @@ mysqli_close($conexion);//cierra base de datos
   }
 
   #calendar {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
   }
 

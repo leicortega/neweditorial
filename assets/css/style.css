@@ -6145,8 +6145,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 .kenne-btn {
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
-  background-color: #242424;
-  color: #ffffff !important;
+  border: 1px solid #90151c;
+  color: black !important;
   width: 175px;
   height: 45px;
   line-height: 45px;
@@ -6156,6 +6156,12 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   font-weight: 400;
   border-radius: 25px;
   font-size: 16px;
+}
+
+.kenne-btn:hover {
+  background: #90151c !important;
+  border: 1px solid #000000;
+  color: white !important;
 }
 
 .kenne-btn.transparent-btn {
