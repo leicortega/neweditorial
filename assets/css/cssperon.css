@@ -409,3 +409,23 @@ textarea.review-textarea{
         float: right;
         margin-top: -6%;
 }
+.container__disine button{
+    border: 1px solid #90151c !important;
+    background: none !important;
+    border-radius: 16px !important;
+    color: black !important;
+}
+.container__disine button:hover{
+    border: 1px solid #90151c !important;
+    background: #90151c !important;
+    color: white !important;
+}
+.container__disine input{
+    border: 1px solid #c0bdbdbb !important;
+    border-radius: 5px !important;
+}
+.login-form .check-box input[type="checkbox"] + label:before{
+    color: black !important;
+    border: 2px solid #000000 !important;
+    border-radius: 16px !important;
+}
