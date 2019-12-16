@@ -314,7 +314,6 @@ span.icon_filter:hover{
     border: 1px solid #90151c !important;
 }
 
-<<<<<<< HEAD
 .latest-blog_arrow{
     background-color: #f5f5f5 !important;
 }
@@ -401,5 +400,12 @@ textarea.review-textarea{
 .div_notification_new span.fetcha{
     float: right;
 }
-=======
->>>>>>> 2bfe3f5f2e8333829140f82aa5f7bb624816c921
+.kenne-form input.count_new, .kenne-form select.count_new {
+    border: 1px solid #b3b0b09f !important;
+    border-radius: 5px;
+}
+.single-input button.btn_new_pro{
+        width: 50%;
+        float: right;
+        margin-top: -6%;
+}

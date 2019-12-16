@@ -1104,21 +1104,43 @@
                                 </div>
                                 <div class="tab-pane fade" id="account-address" role="tabpanel" aria-labelledby="account-address-tab">
                                     <div class="myaccount-address">
-                                        <p>The following addresses will be used on the checkout page by default.</p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <h4 class="small-title">Billing Adress</h4>
-                                                <address>
-                                                    1234 Heaven Stress, Beverly Hill OldYork UnitedState of Lorem
-                                                </address>
+                                        <form action="#" class="kenne-form">
+                                            <div class="kenne-form-inner">
+                                                <div class="single-input single-input-half">
+                                                    <label for="account-details-firstname">ID*</label>
+                                                    <input type="number" id="account-details-firstname" class="count_new" placeholder="Identificacion">
+                                                </div>
+                                                <div class="single-input single-input-half">
+                                                    <label for="account-details-lastname">Tarjeta*</label>
+                                                   <select class="count_new">
+                                                       <option>Ninguna</option>
+                                                       <option>BBVA</option>
+                                                       <option>Bancolombia</option>
+                                                       <option>Banco de Bogota</option>
+                                                   </select>
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="account-details-email">Numero de tarjeta*</label>
+                                                    <input type="number" id="account-details-email" class="count_new" placeholder="Numero de tarjeta">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="account-details-oldpass">Fecha de caducidad</label>
+                                                    <input type="date" id="account-details-oldpass" min="2000-01-01" max="2021-06-01" class="count_new">
+                                                </div>
+                                                <!-- <div class="single-input">
+                                                    <label for="account-details-newpass">Codigo de seguridad</label>
+                                                    <input type="password" id="account-details-newpass" class="count_new" placeholder="Codigo seguro">
+                                                </div> -->
+                                                <!-- <div class="single-input">
+                                                    <label for="account-details-confpass">Confirma nueva contraseña</label>
+                                                    <input type="password" id="account-details-confpass" class="count_new" placeholder="Confirma contraseña">
+                                                </div> -->
+                                                <div class="single-input">
+                                                    <button class="kenne-btn kenne-btn_dark" type="submit"><span>Guardar</span></button>
+                                                    <button class="kenne-btn kenne-btn_dark btn_new_pro" type="submit"><span>Anexar otra cuenta bancaria</span></button>
+                                                </div>
                                             </div>
-                                            <div class="col">
-                                                <h4 class="small-title">Shipping Address</h4>
-                                                <address>
-                                                    1234 Heaven Stress, Beverly Hill OldYork UnitedState of Lorem
-                                                </address>
-                                            </div>
-                                        </div>
+                                        </form>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="account-details" role="tabpanel" aria-labelledby="account-details-tab">
@@ -1126,34 +1148,31 @@
                                         <form action="#" class="kenne-form">
                                             <div class="kenne-form-inner">
                                                 <div class="single-input single-input-half">
-                                                    <label for="account-details-firstname">First Name*</label>
-                                                    <input type="text" id="account-details-firstname">
+                                                    <label for="account-details-firstname">Nombres*</label>
+                                                    <input type="text" id="account-details-firstname" class="count_new" placeholder="Nombres">
                                                 </div>
                                                 <div class="single-input single-input-half">
-                                                    <label for="account-details-lastname">Last Name*</label>
-                                                    <input type="text" id="account-details-lastname">
+                                                    <label for="account-details-lastname">Apellidos*</label>
+                                                    <input type="text" id="account-details-lastname" class="count_new" placeholder="Apellidos">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="account-details-email">Email*</label>
-                                                    <input type="email" id="account-details-email">
+                                                    <label for="account-details-email">Correo*</label>
+                                                    <input type="email" id="account-details-email" class="count_new" placeholder="Correo">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="account-details-oldpass">Current Password(leave blank to leave
-                                                        unchanged)</label>
-                                                    <input type="password" id="account-details-oldpass">
+                                                    <label for="account-details-oldpass">Contraseña</label>
+                                                    <input type="password" id="account-details-oldpass" class="count_new" placeholder="Contraseña actual">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="account-details-newpass">New Password (leave blank to leave
-                                                        unchanged)</label>
-                                                    <input type="password" id="account-details-newpass">
+                                                    <label for="account-details-newpass">Nueva contraseña (deja en blanco para no cambiar)</label>
+                                                    <input type="password" id="account-details-newpass" class="count_new" placeholder="Nueva contraseña">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="account-details-confpass">Confirm New Password</label>
-                                                    <input type="password" id="account-details-confpass">
+                                                    <label for="account-details-confpass">Confirma nueva contraseña</label>
+                                                    <input type="password" id="account-details-confpass" class="count_new" placeholder="Confirma contraseña">
                                                 </div>
                                                 <div class="single-input">
-                                                    <button class="kenne-btn kenne-btn_dark" type="submit"><span>SAVE
-                                                    CHANGES</span></button>
+                                                    <button class="kenne-btn kenne-btn_dark" type="submit"><span>Guardar</span></button>
                                                 </div>
                                             </div>
                                         </form>
