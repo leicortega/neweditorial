@@ -389,3 +389,14 @@ textarea.review-textarea{
 .minicart-content{
     width: 115%;
 }
+.div_notification_new{
+    /* border: 1px solid black; */
+    background: #91151b28;
+    color: #000000;
+    box-shadow: 1px 1px 2px 1px black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.div_notification_new span.fetcha{
+    float: right;
+}
