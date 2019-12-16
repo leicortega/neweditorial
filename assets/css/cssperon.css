@@ -368,3 +368,24 @@ textarea.review-textarea{
 .sp-content{
     margin-left: 15%;
 }
+.new_carrusel_unic .tty-slick-text-next, .new_carrusel_unic button.tty-slick-text-prev{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    background: #71838d;
+    cursor: pointer;
+}
+.new_carrusel_unic button.tty-slick-text-next{
+    margin-top: 20px;
+}
+.new_carrusel_unic button.tty-slick-text-next:hover, .new_carrusel_unic button.tty-slick-text-prev:hover{
+    background: #90151c !important;
+    color: white !important;
+}
+.margin_respond{
+    margin-right: 10%;
+}
+.minicart-content{
+    width: 115%;
+}

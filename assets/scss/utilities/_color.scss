@@ -359,6 +359,8 @@
 				> li {
 					&.minicart-product {
 						.product-item_img {
+                            flex-basis: 100px !important;
+                            max-width: 100px !important;
 							&:hover{
 								border-color: nth($colorList, $i) !important;
 							}
