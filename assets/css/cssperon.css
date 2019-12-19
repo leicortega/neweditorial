@@ -498,3 +498,24 @@ img.img_autor_full{
 .CONTENT_TEXT_IMAGE_AUTOR{
 margin-left: -30%;
 }
+.bcd__{
+    widows: 100% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #90151c;
+    margin-top: 2%;
+}
+.bcd__ ul li{
+    display: inline;
+    margin-left: 1.8%;
+    cursor: pointer;
+    /* height: 50%; */
+    padding-right: 0.3%;
+    padding-left: 0.3%;
+    /* background: #b3b3b3; */
+    border: 1px solid black;
+}
+.bcd__ ul li:hover{
+    background: #90151c;
+    color: white;
+}
