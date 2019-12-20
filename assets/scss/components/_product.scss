@@ -209,3 +209,15 @@
         }
     }
 }
+
+.item_new_products:hover{
+    .arrows_new_punts  .tty-slick-text-next{
+        display: inline-block !important;
+    }
+    .arrows_new_punts  .tty-slick-text-prev{
+        display: inline-block !important;
+    }
+    .product-info-new{
+        display: block !important;
+    }
+}

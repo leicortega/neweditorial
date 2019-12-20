@@ -6705,6 +6705,18 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   margin: -15px;
 }
 
+.item_new_products:hover .arrows_new_punts .tty-slick-text-next {
+  display: inline-block !important;
+}
+
+.item_new_products:hover .arrows_new_punts .tty-slick-text-prev {
+  display: inline-block !important;
+}
+
+.item_new_products:hover .product-info-new {
+  display: block !important;
+}
+
 /*----------------------------------------*/
 /*  15 - Components - Product Tab
 /*----------------------------------------*/
