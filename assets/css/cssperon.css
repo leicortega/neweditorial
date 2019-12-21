@@ -531,6 +531,7 @@ margin-left: -30%;
 }
 .item_new_products{
 border: 1px solid rgba(100, 13, 13, 0.116);
+margin-bottom: 2%;
 }
 .arrows_new_punts  .tty-slick-text-next{
     position: absolute;
@@ -556,4 +557,30 @@ h3.title_new_distri{
 }
 .body_of_Punts_vents h6, .body_of_Punts_vents h4{
     font-weight: normal;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color:#90151c;
+}
+.body_of_Punts_vents{
+    margin-left: 10%;
+}
+.img_punt_new .span{
+    width: 100%;
+    text-align: center;
+}
+.libreria_universitaria span.span1{
+    font-size: 25px;
+}
+.libreria_universitaria span a, .libreria_virtual span a{
+color: #90151c !important;
+}
+.libreria_universitaria span a:hover, .libreria_virtual span a:hover{
+    color: #000000 !important;
+    }
+.libreria_universitaria p, .libreria_virtual p{
+    color: black;
+    font-size: 16px;
 }
